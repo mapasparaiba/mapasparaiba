@@ -6,9 +6,9 @@ body {
     background-color: #f7f8fc;
 }
 
-/* Cabeçalho */
+/* Cabeçalho atualizado com cor vermelha magenta */
 header {
-     background-color: #333; /* cinza escuro igual ao rodapé */
+    background-color: #333; /* Vermelho Magenta */
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -16,7 +16,8 @@ header {
 
 /* Estilo do ícone do mapa da Paraíba no cabeçalho */
 header .icone {
-  width: 100px;
+   header .icone {
+    width: 100px;
     height: auto;
     vertical-align: middle;
     margin-right: 8px;
