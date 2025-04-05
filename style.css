@@ -6,9 +6,9 @@ body {
     background-color: #f7f8fc;
 }
 
-/* Cabeçalho atualizado com cor vermelha magenta */
+/* Cabeçalho */
 header {
-    background-color: #D80073; /* Vermelho Magenta */
+     background-color: #333; /* cinza escuro igual ao rodapé */
     color: #ffffff;
     padding: 20px;
     text-align: center;
