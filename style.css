@@ -1,4 +1,4 @@
-/* Estilos gerais do corpo da página */
+/* Estilos gerais do corpo da página usando Roboto */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
@@ -6,9 +6,9 @@ body {
     background-color: #f7f8fc;
 }
 
-/* Cabeçalho atualizado com cor vermelha magenta */
+/* Cabeçalho com cor cinza escuro */
 header {
-    background-color: #333; /* Vermelho Magenta */
+    background-color: #333; /* Cinza escuro igual ao rodapé */
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -16,13 +16,10 @@ header {
 
 /* Estilo do ícone do mapa da Paraíba no cabeçalho */
 header .icone {
-   header .icone {
     width: 100px;
     height: auto;
     vertical-align: middle;
     margin-right: 8px;
-}
-
 }
 
 /* Menu principal (horizontal) */
@@ -56,13 +53,13 @@ nav {
 .submenu {
     display: none;
     position: absolute;
-    background-color: #a80059; /* tom mais escuro para submenu */
+    background-color: #555; /* Cinza médio para submenu */
     list-style: none;
     padding: 0;
     margin-top: 5px;
     min-width: 200px;
     border-radius: 4px;
-    z-index: 1000; /* garantir que o submenu fique sobre outros elementos */
+    z-index: 1000;
 }
 
 /* Exibir submenu ao passar mouse */
@@ -78,7 +75,7 @@ nav {
 
 /* Efeito hover nos links do submenu */
 .submenu a:hover {
-    background-color: #8c0049; /* tom ainda mais escuro para hover */
+    background-color: #777; /* cinza mais claro para hover */
 }
 
 /* Estilo do conteúdo principal */
