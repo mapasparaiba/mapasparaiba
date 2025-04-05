@@ -17,8 +17,8 @@ header {
 /* Estilo do ícone do mapa da Paraíba no cabeçalho */
 header .icone {
    header .icone {
-    width: 5px;
-    height: 5px;
+    width: 15px !important; /* diminui significativamente o ícone para 15px */
+    height: auto;
     vertical-align: middle;
     margin-right: 8px;
 }
