@@ -1,3 +1,4 @@
+/* Estilos gerais do corpo da página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,17 +6,28 @@ body {
     background-color: #f7f8fc;
 }
 
+/* Cabeçalho atualizado com cor vermelha magenta */
 header {
-    background-color: #064420;
-    color: #fff;
+    background-color: #D80073; /* Vermelho Magenta */
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
 
+/* Estilo do ícone do mapa da Paraíba no cabeçalho */
+header .icone {
+    width: 35px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Menu principal (horizontal) */
 nav {
     margin-top: 15px;
 }
 
+/* Formatação da lista do menu principal */
 .menu {
     list-style: none;
     padding: 0;
@@ -24,6 +36,7 @@ nav {
     gap: 20px;
 }
 
+/* Estilo dos links principais do menu */
 .menu a {
     color: #fff;
     text-decoration: none;
@@ -31,41 +44,50 @@ nav {
     display: block;
 }
 
+/* Configuração do dropdown menu */
 .dropdown {
     position: relative;
 }
 
+/* Estilo do submenu dropdown */
 .submenu {
     display: none;
     position: absolute;
-    background-color: #095c2f;
+    background-color: #a80059; /* tom mais escuro para submenu */
     list-style: none;
     padding: 0;
     margin-top: 5px;
-    min-width: 180px;
+    min-width: 200px;
     border-radius: 4px;
+    z-index: 1000; /* garantir que o submenu fique sobre outros elementos */
 }
 
+/* Exibir submenu ao passar mouse */
 .dropdown:hover .submenu {
     display: block;
 }
 
+/* Estilos dos itens dentro do submenu */
 .submenu a {
     padding: 10px;
     text-align: left;
 }
 
+/* Efeito hover nos links do submenu */
 .submenu a:hover {
-    background-color: #0b8043;
+    background-color: #8c0049; /* tom ainda mais escuro para hover */
 }
 
+/* Estilo do conteúdo principal */
 main {
     max-width: 800px;
     margin: auto;
     padding: 20px;
     text-align: center;
+    min-height: 60vh;
 }
 
+/* Rodapé do site */
 footer {
     text-align: center;
     padding: 15px;
