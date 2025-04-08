@@ -97,3 +97,11 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.topo-banner img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
