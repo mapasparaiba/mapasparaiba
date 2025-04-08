@@ -9,7 +9,7 @@ body {
 .topo-banner {
     text-align: center;
     padding: 10px 0;
-    background-color: #e6f0fa;
+    background-color: #f7f8fc;
 }
 
 .topo-banner img {
@@ -40,7 +40,7 @@ header h1 {
 
 /* Ícone da Paraíba em azul claro */
 header .icone {
-    width: 40px;
+    width: 65px;
     height: auto;
     vertical-align: middle;
     margin-right: 8px;
