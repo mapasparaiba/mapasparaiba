@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f8fc;
+    background-color: #0879BE;
 }
 
 /* Banner no topo */
@@ -22,7 +22,7 @@ body {
 /* Cabeçalho com fundo branco e texto azul claro*/
 header {
     background-color: #ffffff;
-    color: #0072CE;
+    color: #0879BE;
     padding: 20px;
     text-align: center;
 }
@@ -50,7 +50,7 @@ nav {
 }
 
 .menu a {
-    color: #0072CE;
+    color: #0879BE;
     text-decoration: none;
     padding: 10px;
     display: block;
@@ -58,7 +58,7 @@ nav {
 }
 
 .menu a:hover {
-    color: #005EA6;
+    color: #0879BE;
 }
 
 .dropdown {
@@ -84,7 +84,7 @@ nav {
 .submenu a {
     padding: 10px;
     text-align: left;
-    color: #0072CE;
+    color: #0879BE;
 }
 
 .submenu a:hover {
@@ -103,7 +103,7 @@ main {
 /* Rodapé com fundo branco e texto azul claro */
 footer {
     background-color: #ffffff;
-    color: #0072CE;
+    color: #0879BE;
     text-align: center;
     padding: 15px;
     border-top: 1px solid #ddd;
